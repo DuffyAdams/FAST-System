@@ -1,0 +1,318 @@
+{
+	"restaurant": "Ultimate Fast Food",
+	"menu": {
+		"categories": [
+			{
+				"name": "Burgers",
+				"items": [
+					{
+						"id": 101,
+						"name": "Classic Cheeseburger",
+						"description": "Beef patty, cheddar cheese, lettuce, tomato, and special sauce.",
+						"price": 5.99,
+						"customizations": {
+							"sizes": [
+								"Single",
+								"Double",
+								"Triple"
+							],
+							"add_ons": [
+								"Bacon",
+								"Extra Cheese",
+								"Pickles"
+							]
+						}
+					},
+					{
+						"id": 102,
+						"name": "Veggie Burger",
+						"description": "Plant-based patty with lettuce, tomato, and vegan mayo.",
+						"price": 6.49,
+						"customizations": {
+							"sizes": [
+								"Single",
+								"Double"
+							],
+							"add_ons": [
+								"Avocado",
+								"Grilled Onions"
+							]
+						}
+					},
+					{
+						"id": 103,
+						"name": "Spicy Chicken Burger",
+						"description": "Crispy chicken patty with spicy mayo, lettuce, and jalapeños.",
+						"price": 6.99,
+						"customizations": {
+							"sizes": [
+								"Single",
+								"Double"
+							],
+							"add_ons": [
+								"Extra Sauce",
+								"Cheddar Cheese"
+							]
+						}
+					},
+					{
+						"id": 104,
+						"name": "BBQ Bacon Burger",
+						"description": "Beef patty, BBQ sauce, bacon, onion rings, and cheddar cheese.",
+						"price": 7.49,
+						"customizations": {
+							"sizes": [
+								"Single",
+								"Double"
+							],
+							"add_ons": [
+								"Grilled Mushrooms",
+								"Pickles"
+							]
+						}
+					},
+					{
+						"id": 105,
+						"name": "Mushroom Swiss Burger",
+						"description": "Juicy beef patty with sautéed mushrooms, Swiss cheese, and garlic aioli.",
+						"price": 7.29,
+						"customizations": {
+							"sizes": [
+								"Single",
+								"Double"
+							],
+							"add_ons": [
+								"Caramelized Onions",
+								"Avocado"
+							]
+						}
+					}
+				]
+			},
+			{
+				"name": "Sides",
+				"items": [
+					{
+						"id": 201,
+						"name": "French Fries",
+						"description": "Golden crispy fries with sea salt.",
+						"price": 2.99,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					},
+					{
+						"id": 202,
+						"name": "Curly Fries",
+						"description": "Seasoned spiral-cut fries.",
+						"price": 3.49,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					},
+					{
+						"id": 203,
+						"name": "Onion Rings",
+						"description": "Golden-battered onion rings.",
+						"price": 3.49,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					},
+					{
+						"id": 204,
+						"name": "Mozzarella Sticks",
+						"description": "Crispy fried mozzarella with marinara sauce.",
+						"price": 4.49,
+						"sizes": [
+							"4 Pieces",
+							"6 Pieces",
+							"8 Pieces"
+						]
+					},
+					{
+						"id": 205,
+						"name": "Loaded Nachos",
+						"description": "Tortilla chips topped with cheese, jalapeños, sour cream, and salsa.",
+						"price": 5.49,
+						"add_ons": [
+							"Guacamole",
+							"Extra Cheese"
+						]
+					}
+				]
+			},
+			{
+				"name": "Drinks",
+				"items": [
+					{
+						"id": 301,
+						"name": "Soft Drink",
+						"description": "Choose from a variety of sodas.",
+						"price": 1.99,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					},
+					{
+						"id": 302,
+						"name": "Iced Tea",
+						"description": "Refreshing iced tea with lemon.",
+						"price": 1.99,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					},
+					{
+						"id": 303,
+						"name": "Milkshake",
+						"description": "Creamy milkshake available in vanilla, chocolate, or strawberry.",
+						"price": 3.99,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					},
+					{
+						"id": 304,
+						"name": "Smoothie",
+						"description": "Blended fruit smoothie available in mango, berry, or banana.",
+						"price": 4.49,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					},
+					{
+						"id": 305,
+						"name": "Hot Coffee",
+						"description": "Freshly brewed coffee.",
+						"price": 1.49,
+						"sizes": [
+							"Small",
+							"Medium",
+							"Large"
+						]
+					}
+				]
+			},
+			{
+				"name": "Desserts",
+				"items": [
+					{
+						"id": 401,
+						"name": "Chocolate Chip Cookie",
+						"description": "Soft, freshly baked chocolate chip cookie.",
+						"price": 1.49
+					},
+					{
+						"id": 402,
+						"name": "Brownie",
+						"description": "Rich, fudgy chocolate brownie.",
+						"price": 2.49
+					},
+					{
+						"id": 403,
+						"name": "Ice Cream Sundae",
+						"description": "Vanilla ice cream topped with chocolate or caramel sauce.",
+						"price": 2.99
+					},
+					{
+						"id": 404,
+						"name": "Apple Pie",
+						"description": "Warm apple pie with a flaky crust.",
+						"price": 1.99
+					},
+					{
+						"id": 405,
+						"name": "Cheesecake",
+						"description": "Creamy cheesecake with a graham cracker crust.",
+						"price": 3.99
+					}
+				]
+			},
+			{
+				"name": "Breakfast",
+				"items": [
+					{
+						"id": 501,
+						"name": "Breakfast Burrito",
+						"description": "Eggs, cheese, sausage, and salsa wrapped in a tortilla.",
+						"price": 4.99
+					},
+					{
+						"id": 502,
+						"name": "Pancakes",
+						"description": "Fluffy pancakes served with syrup and butter.",
+						"price": 3.99
+					},
+					{
+						"id": 503,
+						"name": "Egg Muffin Sandwich",
+						"description": "Egg, cheese, and sausage patty on an English muffin.",
+						"price": 3.49
+					},
+					{
+						"id": 504,
+						"name": "Breakfast Platter",
+						"description": "Eggs, bacon, hash browns, and toast.",
+						"price": 5.99
+					},
+					{
+						"id": 505,
+						"name": "Oatmeal",
+						"description": "Warm oatmeal served with brown sugar and raisins.",
+						"price": 2.99
+					}
+				]
+			},
+			{
+				"name": "Kids' Meals",
+				"items": [
+					{
+						"id": 601,
+						"name": "Kids' Burger",
+						"description": "Small burger with fries and a drink.",
+						"price": 4.99
+					},
+					{
+						"id": 602,
+						"name": "Chicken Nuggets",
+						"description": "5 chicken nuggets with fries and a drink.",
+						"price": 4.99
+					},
+					{
+						"id": 603,
+						"name": "Grilled Cheese",
+						"description": "Classic grilled cheese sandwich with fries and a drink.",
+						"price": 4.49
+					},
+					{
+						"id": 604,
+						"name": "Mini Hot Dog",
+						"description": "Small hot dog with fries and a drink.",
+						"price": 4.49
+					},
+					{
+						"id": 605,
+						"name": "Mac & Cheese",
+						"description": "Creamy mac & cheese with fries and a drink.",
+						"price": 4.99
+					}
+				]
+			}
+		]
+	}
+}
